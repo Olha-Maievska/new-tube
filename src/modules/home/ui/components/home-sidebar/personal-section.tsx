@@ -6,7 +6,6 @@ import {
   SidebarMenu,
   SidebarMenuItem,
   SidebarMenuButton,
-  SidebarGroupLabel,
 } from "@/components/ui/sidebar";
 import { HistoryIcon, ListVideoIcon, ThumbsUpIcon } from "lucide-react";
 import Link from "next/link";
@@ -39,7 +38,6 @@ export const PersonalSection = () => {
 
   return (
     <SidebarGroup>
-      <SidebarGroupLabel>You</SidebarGroupLabel>
       <SidebarGroupContent>
         <SidebarMenu>
           {items.map((item) => (
